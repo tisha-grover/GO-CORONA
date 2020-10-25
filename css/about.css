@@ -1,0 +1,33 @@
+p{
+    text-align: justify;
+    font-family:cursive;
+    margin-left:30px;
+    margin-right:30px;
+    padding: 10px;
+    word-spacing: 5px;
+}
+
+#body-image{
+    height:95vh;
+    width: 95vw;
+    background-image: url(../images/36.jpg);
+    background-position: center;
+    position: fixed;
+    top: 5%;
+    background-repeat: no-repeat;
+    z-index:-1 ;
+}
+
+#header-part{
+    word-spacing: 10px;
+    color: blue;
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+}
+
+.back-to-homepage{
+    position: fixed;
+    top: 25px;
+    left: 30px;
+    
+}

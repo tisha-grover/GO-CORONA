@@ -1,0 +1,30 @@
+#body-image{
+    height:95vh;
+    width:95vw;
+    background-image: url(../images/46.jpg);
+    background-position: center;
+    position: fixed;
+    top: 5%;
+    background-repeat: no-repeat;
+    z-index:-1 ;
+}
+
+.back-to-homepage{
+    position: fixed;
+    top: 25px;
+    left: 30px;
+    
+}
+
+#header-part{
+    word-spacing: 10px;
+    color: blue;
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+}
+
+.body-image{
+    display: flex;
+    justify-content: space-around;
+}
+

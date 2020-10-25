@@ -1,0 +1,24 @@
+/* .box{
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size:30px;
+}
+
+.box1{
+   position: relative;
+   left: 1px;
+   bottom: 0;
+    font-size:30px;
+} */
+
+.center-align{
+    text-align: center;
+}
+
+.back-to-homepage{
+    position: fixed;
+    top: 25px;
+    left: 30px;
+    
+}

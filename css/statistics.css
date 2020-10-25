@@ -1,0 +1,62 @@
+body {
+    font-family:  cursive;
+  }
+
+.divbox{
+    background-color: darkslateblue;
+   width: 300px;
+    text-align: center;
+    color: whitesmoke;
+    padding: 10px;
+}  
+
+.divbox1{
+    background-color: darkred;
+    width: 300px;
+    text-align: center;
+    color: whitesmoke;
+    padding: 10px;
+}  
+
+.divbox2{
+    background-color: darkgreen;
+    width: 300px;
+    text-align: center;
+    color: whitesmoke;
+    padding: 10px;
+}  
+
+#container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.globe{
+    position: relative;
+    height: 95vh;
+    width: 90%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    justify-content: center;
+    margin: auto;
+}
+
+.frame{
+    height: 103vh;
+    width: 110%;
+    margin: auto;
+}
+
+.back-to-homepage{
+    position: fixed;
+    top: 25px;
+    left: 30px;
+    
+}
+
+#header-part{
+    word-spacing: 10px;
+    color: blue;
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+}

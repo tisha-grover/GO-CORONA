@@ -1,0 +1,13 @@
+.back-to-homepage{
+    position: fixed;
+    top: 25px;
+    left: 30px;
+    
+}
+
+#header-part{
+    word-spacing: 10px;
+    color: blue;
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+}

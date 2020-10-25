@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>mini project</title>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+    <style>
+.horizontal-list li {
+    display: inline-block;
+    font-family: 'Lobster', cursive;
+    }
+    
+.horizontal-list li a {
+   color: navy;
+   text-decoration: none;
+}
+
+.nav-menu li a:hover {
+   color: darkgoldenrod;
+   cursor: pointer;
+   border-bottom: 1px solid black;
+
+}
+.nav-menu{
+    width: 70vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.2em;
+    font-weight: 400;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container1{
+    margin-top: 10px;
+    color: skyblue;
+}
+
+.box{
+    font-size:50px;
+    position: fixed;
+    right: 15px;
+    bottom: 8px;
+    color: green;
+}
+
+.share-button{
+    width: 280px;
+    height:80px;
+    background: black;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    transition: 0.3s linear;
+    border: 1px solid black;
+
+}
+.share-button:hover{
+    transform: scale(1.1);
+}
+.share-button span{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: white;
+    color: black;
+    text-align: center;
+    line-height: 80px;
+    z-index: 999;
+    transition: 0.6s linear;
+    border-radius: 40px;
+    
+}
+.share-button:hover span{
+    transform: translateX(-100%);
+    transition-delay: 0.3s;
+    
+}
+.share-button a{
+    flex: 1;
+    font-size: 26px;
+    color:white;
+    text-align: center;
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: 0.3s linear;
+}
+.share-button:hover a{
+    opacity:1;
+    transform: translateX(0);
+}
+.share-button a:nth-of-type(1)
+{
+    transition-delay: 1s;
+}
+
+.share-button a:nth-of-type(2)
+{
+    transition-delay: 0.8s;
+}
+
+.share-button a:nth-of-type(3)
+{
+    transition-delay: 0.6s;
+}
+
+.share-button a:nth-of-type(4)
+{
+    transition-delay: 0.2s;
+}
+.connect{
+    margin-left: 500px;
+    margin-top: 0px;
+}
+
+.content{
+    background-color: grey;
+}
+
+.divbox{
+    display: flex;
+}
+
+.questions:link,.questions:visited,.questions:hover,.questions:active {
+  color: green;
+}
+ </style>
+    </head>
+    <body>
+        <main>
+        <div>
+            <div>
+                <nav class="container">
+                <h1 style="color:darkturquoise;font-family: 'Krona One', sans-serif;">C<i class="fas fa-virus"></i>VID-19</h1> 
+                
+                <ul class="horizontal-list text-center nav-menu" style="word-spacing: 30px;">
+                    <li>
+                        <a href="#"> Home </a>
+                    </li>
+                    <li>
+                        <a href="html\about.html"> About </a>
+                    </li>
+                    <li id="cases">
+                        <a href="html\statistics.html"> Statistics </a>
+                    </li>
+                    <li id="symptoms">
+                        <a href="html\symptoms.html">Symptoms</a>
+                    </li>
+                    <li id="protection"> 
+                        <a href="html\preventation.html">Protection</a>
+                    </li>
+                </ul>
+            </nav>   
+         </div>
+            <center>
+          <section id="#">
+            <span><img src="images\40.jpg" width="700"></span>
+        </center>
+  
+            
+        </section>
+        <div class="divbox">
+        <div >
+            <iframe width="700" height="500" src="https://www.youtube.com/embed/7fhaVZjXlI4?autoplay=1" allow="autoplay" frameborder="0" allowfullscreen>
+            </iframe>
+            </div>
+            <div style="width: 100%; text-align: center;">
+                <br><br><br><br><br><br><br><br><br>
+            <h1># STAY HOME😷</h1>
+            <h3>Someday, Things Will Get Better Soon</h3>
+            </div>
+        </div>    
+    
+    <aside class="box"> 
+      <a class="questions" href="html\Question.html"> <i class="fas fa-comment-alt"></i></a>
+    </aside>
+    
+            </div>
+        <hr>
+            <footer class="content">
+                <br><br>
+                <div class="connect">
+                    <div class="share-button">
+                        <span style="font-family: 'montserrat',sans-serif;"><i class="fas fa-share-alt"></i>&nbsp;&nbsp;&nbsp;Let's Connect</span>
+                        <a href="https://www.instagram.com/tisha_grover_/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://mail.google.com/mail/u/1/#inbox"><i class="fas fa-mail-bulk"></i></a>
+                        <a href="https://github.com/tisha-grover"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <br>
+                <br>
+        </footer>
+        </main>
+        </body>           
+</html>
